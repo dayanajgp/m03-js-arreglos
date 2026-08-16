@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inmobiliaria ADL</title>
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Inmobiliaria ADL</a>
+        <div class="navbar-nav">
+          <a class="nav-link" href="propiedades_venta.html">En venta</a>
+          <a class="nav-link" href="propiedades_alquiler.html">Alquiler</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container-fluid main-section">
+      <h1 class="text-white">Encuentra tu nueva propiedad</h1>
+    </main>
+
+    <div class="container mt-5">
+      <section>
+        <h2>Propiedades en venta</h2>
+        <div id="propiedades-venta" class="row"></div>
+        <a href="propiedades_venta.html" class="btn btn-dark">
+          Ver todas las propiedades en venta
+        </a>
+      </section>
+
+      <hr />
+
+      <section class="mb-5">
+        <h2>Propiedades en alquiler</h2>
+        <div id="propiedades-alquiler" class="row"></div>
+        <a href="propiedades_alquiler.html" class="btn btn-dark">
+          Ver todas las propiedades en alquiler
+        </a>
+      </section>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/f5bdbb41e0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="assets/js/index.js"></script>
+  </body>
+</html>
