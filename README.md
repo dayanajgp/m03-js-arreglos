@@ -1,8 +1,10 @@
-# Desafío 4 - Inmobiliaria
+# 🧩 Proyecto: Desafío 4 - Inmobiliaria
 
 Este repositorio contiene el desarrollo del **Desafío 4 - Inmobiliaria** del módulo de **Introducción a JavaScript**.
 
-## Objetivo
+🌐 **[Ver proyecto en GitHub Pages](https://dayanajgp.github.io/m03-js-arreglos/)**
+
+## 🎯 Objetivo
 
 Practicar el uso de **arreglos de objetos, ciclos, interpolación, `innerHTML` y condicionales** para renderizar dinámicamente propiedades inmobiliarias en distintas páginas.
 
